@@ -1,0 +1,26 @@
+.navigation-for-mobile {
+  background-color: var(--background-navigation-color);  
+  height: 50px;
+  display: var(--display-navigation-for-mobile);
+  align-items: center;
+}
+
+.navigation-for-mobile__container {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+
+.navigation-for-mobile__container > nav a:hover {
+  color: var(--skin-color);
+}
+
+.navigation-for-mobile__container > nav {
+  display: flex;
+  gap: 20px;
+}
+
+button:hover {
+  color: var(--skin-color);
+}

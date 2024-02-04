@@ -1,0 +1,17 @@
+.navigation {
+  background-color: var(--background-navigation-color);
+}
+
+.navigation__container {
+  padding-top: 60px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation__container > nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 115px;
+}

@@ -1,0 +1,56 @@
+.skills-section {
+  background-color: var(--background-body-2-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skills-section img {
+  height: 45px;
+  width: 45px;
+}
+
+.skills-section > div {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;  
+}
+
+.skills-section__container--header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-section__container--body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-between-skills);
+  margin: 0 auto;
+}
+
+.skills-section__container--body article {
+  display: flex;
+  flex-flow: row wrap;
+  gap: var(--gap-between-group-name-and-imgs-in-skills);
+}
+
+.group-name {
+  width: 250px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.imgs-of-the-tech {
+  display: flex;
+  gap: 20px;
+  width: 350px;
+}
+
+.tech-and-name {
+  text-align: center;
+}
+
+.tech-and-name > p {
+  font-size: 12px;
+}

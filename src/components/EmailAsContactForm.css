@@ -1,0 +1,23 @@
+.email-contact-form {
+  width: 170px;
+  height: 100px;
+  border: var(--border-size) solid var(--skin-color);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-letter-color);
+}
+
+.email-icon {
+  font-size: var(--icon-font-size);
+  font-family: var(--font-family);
+  background: transparent;
+  font-weight: 500;
+}
+
+.email-contact-form:hover {
+  color: var(--skin-color);
+}

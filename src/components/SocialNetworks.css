@@ -1,0 +1,13 @@
+.social-networks {
+  display: flex;
+  flex-direction: var(--social-networks-flex-direction);
+  gap: 10px;
+}
+
+.social-networks a {
+  color: var(--primary-letter-color);
+}
+
+.social-networks a:hover {
+  color: var(--skin-color);
+}

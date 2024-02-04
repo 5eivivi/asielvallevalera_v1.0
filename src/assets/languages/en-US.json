@@ -1,0 +1,81 @@
+{
+  "home": "Home",
+  "skills": "Skills",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+  
+  "my-name-is": "My name is ",
+  "occupation": "I am a Web Developer.",
+  "explain-occupation": "I am knowledgeable about a wide range of web and internet technologies. I have a passion for creating resilient, scalable, and maintainable software. I am excited to improve the experiences of the users, both internal and external. I am meticulous, have a lot of attention to detail, especially when working with design specifications.",
+  "download-cv-button": "Download CV",
+  "about-me-button": "More about me", 
+  
+  "aboutme": "About me",
+  "text-aboutme": "Here you will find information about me, what I do, if of technology and programming we talk.",
+  "more-about-me": "More about me",
+  "paragraph-more-about-me": "I develop the Frontend of Websites and Web Applications. I build successful products. Please, check out some of my work in the {Projects} section. I also develop the Backend for Web Applications. I have abilities using the technologies that I show in the {Skills} section. I enjoy spending time with people and talking about technology. Feel free to connect with me or follow me on {LinkedIn}, where you will find more information about me. I am open to job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills, then do not hesitate to {contactMe}.",
+  "projects-in-more-about-me": "Projects",
+  "skills-in-more-about-me": "Skills",
+  "contactme-in-more-about-me": "contact me",
+
+  "my-skills": "My skills",
+  "text-skills": "Here are my skills, separated into groups.",
+  "skills-frontend-development": "Frontend Development",
+  "skills-backend-development": "Backend Development",
+  "skills-design": "UI / UX Design",
+  "libraries": "Libraries",
+  "tools": "Tools",
+
+  "my-projects": "My projects", 
+  "text-myprojects": "Here you will find some of my personal projects that I have created. Each project contains its own brief description.",
+  
+  "card-title-1": "To do list",
+  "card-description-1": "Application to list a user's tasks. Typical CRUD functionalities were implemented to manage tasks and user authentication. The database MongoDB was used.",
+
+  "card-title-2": "Blog",
+  "card-description-2": "Application with some of the typical functionalities of a Blog, among which are: creating a publication by a user, listing the publications of all users, and user authentication. The database MongoDB was used.",
+
+  "card-title-3": "To do list",
+  "card-description-3": "Application to list a user's tasks. Typical CRUD functionalities were implemented to manage tasks. The database PostgreSQL was used.",
+
+  "card-title-4": "To do list",
+  "card-description-4": "Implementation to list a user's tasks. Typical CRUD functionalities were implemented to manage tasks and user authentication. The database MongoDB was used.",
+
+  "card-title-5": "Blog",
+  "card-description-5": "Implementation with some of the typical functionalities of a Blog, among which are: creating a publication by a user, listing the publications of all users, and user authentication. The database MongoDB was used.",
+
+  "card-title-6": "To do list",
+  "card-description-6": "Implementation to list a user's tasks. Typical CRUD functionalities were implemented to manage tasks. The database PostgreSQL was used.",
+
+  "card-title-7": "Follow functionality on Twitter",
+  "card-description-7": "React application, where it looks like the use of CSS and some properties of React to simulate the functionality Following on Twitter.",
+
+  "card-title-8": "Tic Tac Toe Game",
+  "card-description-8": "React application of the Tic Tac Toe game. It looks like the use of React properties, states, the implementation of components and more.", 
+
+  "card-title-9": "Mouse follower",
+  "card-description-9": "React application, where it was implemented a mouse follower. It is activated and deactivated by clicking a button.", 
+
+  "card-title-10": "Movies searcher",
+  "card-description-10": "React application that searches movies according to the text typed on the search input. It has an option to sort the movies found. The movies are from the Internet using a fetch request.",  
+
+  "card-title-11": "Online store with shopping cart",
+  "card-description-11": "React application, where it looks like the use of several hooks and multiple properties of React to simulate an online store with a shopping cart.",  
+
+  "card-title-12": "My portfolio",
+  "card-description-12": "It is this app; my portfolio. It is a React application where I show my skills as a Web Developer, some of my developed projects, and info about myself.",
+  
+  "contact-title": "Contact me",
+  "text-contact": "Contact me by submitting the form below and I will get back to you as soon as possible.",
+  "form-label-name": "Please, type your full name",
+  "form-label-email": "Please, type your email",
+  "form-label-message": "Please, type your message",
+  "form-button": "Send Message",
+
+  "footer": "All right reserved.",
+
+  "send-email-as-contact-form": "Send a message",
+
+  "send-whatsapp-as-contact-form": "Send a message"
+}

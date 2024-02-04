@@ -1,0 +1,13 @@
+.settings {
+  display: flex;
+  flex-direction: var(--settings-flex-direction);
+  gap: 10px;    
+}
+
+.settings-icon-color {
+  color: var(--primary-letter-color);
+}
+
+.settings-icon-color:hover {
+  color: var(--skin-color);
+}

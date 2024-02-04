@@ -1,0 +1,61 @@
+.home-section {  
+  display: flex;
+  background-color: var(--background-body-2-color);
+}
+
+.home-section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}
+
+.home-section__container--text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.home-section__container--text > h1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.about-me-button {
+  color: #fff;
+  padding: 10px;
+  background-color: var(--skin-color);
+  border-radius: var(--border-radius);
+  width: 130px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-me-button:hover {
+  color: var(--skin-color);
+  padding: 10px;
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  border: var(--border-size) solid var(--skin-color);
+}
+
+.home-section__container--my-img {
+  width: var(--width-border-photo-home);
+  height: var(--height-border-photo-home);
+  border-radius: var(--border-radius);
+  border: 2px solid var(--skin-color);
+  /* margin-right: 44px; */
+}
+
+.home-section__container--my-img > img {
+  width: calc(var(--width-border-photo-home) - 4px);
+  height: calc(var(--height-border-photo-home) - 3.5px);
+  border-radius: var(--border-radius);
+  /* transform: translate(40px, 40px); */
+}

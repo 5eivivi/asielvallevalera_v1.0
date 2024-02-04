@@ -1,0 +1,167 @@
+.projects-section {
+  background-color: var(--background-body-color);
+  padding-bottom: 20px;
+}
+
+.projects-section > div {  
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin: 0 auto;
+}
+
+.projects-section__container--header {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.projects-header-height-text {
+  height: var(--projects-header-height-text);
+}
+
+.projects-section__container--cards {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 25px;
+  margin: 0 auto;
+}
+
+.card {
+  border: var(--border-size) solid var(--skin-color);
+  border-radius: var(--border-radius);
+  height: 505px; 
+  width: 330px; 
+  position: relative; /* Set position to ".img-footer-card" and '.link-footer-card" */
+  margin: 0 auto;
+}
+
+.card-container {
+  width: 300px; 
+  margin: 15px auto;
+}
+
+.card_header {
+  margin: 15px auto;
+  /* Images gallery */
+  display: flex;
+  height: 150px;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.card_header img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.card_footer {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+/* Relative to ".card" */
+.img-footer-card {
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  bottom: 50px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.link-footer-card {
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+}
+
+.link-footer-card a:hover {
+  color: var(--skin-color);
+}
+
+.pagination-container {
+  display: flex;
+  gap: 15px;
+  height: 30px;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* Item of the pagination not activated. */
+.item {
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--skin-color);
+  border-radius: var(--border-radius);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  color: var(--skin-color);
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+.item:hover {
+  background-color: var(--skin-color);
+  color: #fff;
+}
+
+/* When a button to filter and an item of the pagination is activated. */
+#app .activated {
+  background-color: var(--skin-color);
+  color: #fff;
+}
+
+.projects-section__container--filter > div {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.projects-section__container--filter > div > button {
+  border: var(--border-size) solid var(--skin-color);
+  padding: 8px;
+  border-radius: var(--border-radius);
+  color: var(--skin-color); 
+  background-color: transparent;
+}
+
+.projects-section__container--filter > div > button:hover {
+  background-color: var(--skin-color);
+  color: #fff; 
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.stack-title {
+  font-size: 15px;
+}
+.stack-title strong {
+  letter-spacing: 3px;
+}
+.stack-tech {
+  display: flex;
+  gap: 10px;
+}
+.stack-tech span {
+  color: var(--skin-color);
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: var(--border-size) solid var(--skin-color);
+}
+
+#app .card-title {
+  font-size: 18px;
+}
+
+#app .card-paragraph {
+  font-size: 16px;
+  text-align: justify; 
+}

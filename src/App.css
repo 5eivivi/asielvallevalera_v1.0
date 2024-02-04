@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  /* General styles */
+  --border-size: 1px;
+  --font-family: 'Poppins', sans-serif;
+  --container-max-width: 1200px;
+  --border-radius: 6px;
+  --container-padding: 60px 80px;
+
+  /* Colors */    
+  --skin-color: #229142;
+
+  /* Letter */
+  --primary-letter-color: #000000df;
+  --secondary-letter-color: #000000c0;
+
+  /* Light mode */
+  --background-navigation-color: #fff;
+  --background-body-color: #EDEDED;
+  --background-body-2-color: #fff;
+
+  /* Icon */
+  --icon-font-size: 25px;
+
+  /* Navigation */
+  --navigation-width: 200px;
+
+  /* Home */
+  --width-border-photo-home: 200px;  
+  --height-border-photo-home: 200px;
+
+  /* Skills */
+  /* --skills-margin-top: 0px; */
+  --gap-between-skills: 50px;
+  --gap-between-group-name-and-imgs-in-skills: 5px;
+
+  /* Projects */
+  --projects-header-height-text: 60px;
+
+  /* Settings.css and SocialNetworks.css */
+  --settings-flex-direction: column;
+  --social-networks-flex-direction: column;
+  /* Settings and Social Networks en App.css */
+  --settings-and-social-networks-right: 80px;
+  --visibility-for-settings-and-social-networks: hidden;
+
+  /* Navigation for Mobile. */
+  --display-navigation-for-mobile: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navigation {
+  width: var(--navigation-width);
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0; 
+  border-right: 1px solid var(--background-body-color);
+}
+
+.body {
+  margin-left: var(--navigation-width);
+  font-family: var(--font-family);
+  line-height: 1.5;
+  color: var(--primary-letter-color);
+  font-size: 16px;  
+}
+
+.icon {
+  color: var(--primary-letter-color);
+  font-size: var(--icon-font-size);
+  font-family: var(--font-family);
+  background: transparent;
+  font-weight: 500;
+}
+
+.icon-text {
+  font-size: 18px;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: var(--container-max-width);
+  width: 100%;
+  margin: auto;
+  padding: var(--container-padding);
+}
+
+.container h1 {
+  font-size: 25px;
+  width: fit-content;
+  margin: 0 auto;
+
+  /* This separates and aligns to the center "My name is" and "Asiel Valle Valera." on Home page. */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.container h1 > span {
+  font-size: 30px;
+  color: var(--skin-color);
+}
+
+.container h2 {
+  font-size: 22px;  
+}
+
+.container p {
+  color: var(--secondary-letter-color);
+  font-size: 20px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.home-section__container--text > h1 {
+  width: 100%;
+}
+
+
+.h1-green-color {
+  color: var(--skin-color);
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.settings-and-social-networks {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  position: fixed;
+  top: 60px;
+  right: var(--settings-and-social-networks-right);
+}
+
+@media screen and (max-width: 1600px) {
+  :root {
+    /* Home */
+    --width-border-photo-home: 180px;  
+    --height-border-photo-home: 180px;
+    /* Settings and Social Networks en App.css */
+    --settings-and-social-networks-right: 40px;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  :root {
+    /* Settings and Social Networks en App.css */
+    --settings-and-social-networks-right: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  :root {
+    /* Skills */
+    --gap-between-skills: 50px;
+    --gap-between-group-name-and-imgs-in-skills: 20px;
+    /* For Navigation. */
+    --navigation-width: 100px;
+  }
+
+  /* For Navigation. */
+  .disable-text {
+    display: none;
+  }  
+
+  .logo {
+    margin-left: -15px;
+  }
+}
+
+@media screen and (max-width: 850px) { 
+  .navigation {
+    display: none;
+  }
+  :root {
+    --navigation-width: 0;
+    --display-navigation-for-mobile: flex;
+    --container-padding: 60px 50px;
+    --settings-flex-direction: row;
+    --social-networks-flex-direction: row;
+  }
+  
+  footer {
+    padding-bottom: 80px;
+  }
+
+  /* Navigation for mobile. */
+  .navigation-for-mobile {
+    position: fixed;
+    bottom: 0;    
+    width: 100%;
+  }
+  
+  /* To put Settings.jsx and SocialNetworks.jsx over NavigationForMobile.jsx */
+  #app > .settings-and-social-networks > .settings::after { /* Raya entre Settings.jsx y SocialNetworks.jsx. */
+    content: '';
+    width: 2px;
+    height: 25px;
+    background: var(--primary-letter-color);
+    margin-right: 10px;
+  }
+  #app > .settings-and-social-networks {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+    position: fixed;
+    top: unset;
+    right: unset;
+    bottom: 55px;
+    visibility: var(--visibility-for-settings-and-social-networks);
+  }
+}
+
+@media screen and (max-width: 670px) {
+  :root {
+    --projects-header-height-text: 90px;
+  }
+}
+
+@media screen and (max-width: 501px) {
+  :root {
+    --projects-header-height-text: 120px;
+  }
+}
+
+/* max-height */
+@media screen and (max-height: 700px) {
+  .group-name {
+    margin: 0 auto;
+  }
+  .imgs-of-the-tech {
+    margin: 0 auto;    
+  }
+}

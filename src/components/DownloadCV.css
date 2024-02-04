@@ -1,0 +1,28 @@
+.download-cv-button {
+  color: #fff;
+  background-color: var(--skin-color);
+  border-radius: var(--border-radius);  
+  width: 130px;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 0 auto;
+
+  /* 
+    I need this because the "button" tag has styles own (font-family, font-size, etc.); 
+    so, with the next codes, I remove them and inherit the styles previously set in 
+    my code flow.
+  */
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.download-cv-button:hover {
+  color: var(--skin-color);
+  padding: 10px;
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  border: var(--border-size) solid var(--skin-color);  
+}

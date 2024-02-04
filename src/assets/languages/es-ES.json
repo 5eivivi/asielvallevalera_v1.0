@@ -1,0 +1,81 @@
+{
+  "home": "Inicio",
+  "about": "Sobre mí",
+  "skills": "Habilidades",
+  "projects": "Proyectos",
+  "contact": "Contácteme",
+
+  "my-name-is": "Mi nombre es ",
+  "occupation": "Soy un Desarrollador Web.",
+  "explain-occupation": "Tengo conocimientos sobre una amplia gama de tecnologías web e Internet. Me apasiona crear software resistente, escalable y mantenible. Me entusiasma mejorar las experiencias de los usuarios, tanto internos como externos. Soy meticulosa, presto mucha atención a los detalles, especialmente cuando trabajo con especificaciones de diseño.",
+  "download-cv-button": "Descargar CV",
+  "about-me-button": "Más sobre mí",
+  
+  "aboutme": "Sobre mí",
+  "text-aboutme": "Aquí encontrará información sobre mí, a qué me dedico, si de tecnología y programación hablamos.",
+  "more-about-me": "Más sobre mí",
+  "paragraph-more-about-me": "Desarrollo el Frontend de Sitios Web y Aplicaciones Web. Construyo productos exitosos. Por favor, mire algunos de mis trabajos en la sección {Projects}. También desarrollo el Backend para Aplicaciones Web. Tengo destreza usando las tecnologías que muestro en la sección {Skills}. Disfruto pasar tiempo con las personas y hablar sobre tecnología. No dude en contactarme o seguirme en {LinkedIn}, donde encontrará más información sobre mí. Estoy abierto a oportunidades laborales donde pueda contribuir, aprender y crecer. Si tiene una buena oportunidad que coincida con mis habilidades, no dude en {contactMe}.",
+  "projects-in-more-about-me": "Proyectos",
+  "skills-in-more-about-me": "Habilidades",
+  "contactme-in-more-about-me": "contactarme",
+
+  "my-skills": "Mis habilidades",
+  "text-skills": "Aquí están mis habilidades, separadas en grupos.",
+  "skills-frontend-development": "Desarrollado Frontend",
+  "skills-backend-development": "Desarrollado Backend",
+  "skills-design": "Diseño UI / UX",
+  "libraries": "Librerías",
+  "tools": "Herramientas",
+
+  "my-projects": "Mis proyectos",
+  "text-myprojects": "Aquí encontrarás algunos de mis proyectos personales que he creado. Cada proyecto contiene su propia breve descripción.",
+  
+  "card-title-1": "Lista de quehaceres",
+  "card-description-1": "Aplicación para listar las tareas de un usuario. Se implementaron funcionalidades CRUD típicas para gestionar tareas y autenticación de usuarios. La base de datos MongoDB fue usada.",
+
+  "card-title-2": "Blog",
+  "card-description-2": "Aplicación con algunas de las funcionalidades típicas de un Blog, entre las que se encuentran: crear una publicación por parte de un usuario, listar las publicaciones de todos los usuarios y autenticación de usuarios. La base de datos MongoDB fue usada.",
+
+  "card-title-3": "Lista de quehaceres",
+  "card-description-3": "Aplicación para listar las tareas de un usuario. Se implementaron funcionalidades CRUD típicas para gestionar tareas. La base de datos PostgreSQL fue usada.",
+
+  "card-title-4": "Lista de quehaceres",
+  "card-description-4": "Implementación para listar las tareas de un usuario. Se implementaron funcionalidades CRUD típicas para gestionar tareas y autenticación de usuarios. La base de datos MongoDB fue usada.",
+
+  "card-title-5": "Blog",
+  "card-description-5": "Implementación con algunas de las funcionalidades típicas de un Blog, entre las que se encuentran: crear una publicación por parte de un usuario, listar las publicaciones de todos los usuarios y autenticación de usuarios. La base de datos MongoDB fue usada.",
+
+  "card-title-6": "Lista de quehaceres",
+  "card-description-6": "Implementación para listar las tareas de un usuario. Se implementaron funcionalidades CRUD típicas para gestionar tareas. La base de datos PostgreSQL fue usada.",
+
+  "card-title-7": "Funcionalidad Seguir en Twitter",
+  "card-description-7": "Aplicación React, donde se ve el uso de CSS y algunas propiedades de React para simular la funcionalidad Seguir en Twitter.",
+
+  "card-title-8": "Juego Tic Tac Toe",
+  "card-description-8": "Aplicación React del juego Tic Tac Toe. Se ve el uso de propiedades, estados, la implementación de componentes y más.", 
+
+  "card-title-9": "Seguidor de mouse",
+  "card-description-9": "Aplicación React, donde se implementó un seguidor de mouse. Se activa y desactiva haciendo clic en un botón.",  
+
+  "card-title-10": "Buscador de películas",
+  "card-description-10": "Aplicación React que busca películas según el texto escrito en el campo de búsqueda. Tiene una opción para ordenar las películas encontradas. Las películas se consiguen desde la Internet mediante una solicitud fetch.",  
+
+  "card-title-11": "Tienda en línea con un carrito de compras",
+  "card-description-11": "Aplicación React, donde se ve el uso de varios hooks y múltiples propiedades de React para simular una tienda en línea con un carrito de compras.",
+
+  "card-title-12": "Mi portafolio",
+  "card-description-12": "Es esta aplicación; mi portafolio. Es una aplicación React donde muestro mis habilidades como Desarrollador Web, algunos de mis proyectos desarrollados e información sobre mí.",
+
+  "contact-title": "Contácteme",
+  "text-contact": "Contáctame enviando el siguiente formulario y me comunicaré con usted lo antes posible.",
+  "form-label-name": "Por favor, escriba su nombre completo",
+  "form-label-email": "Por favor, escriba su correo electrónico",
+  "form-label-message": "Por favor, escriba su mensaje",
+  "form-button": "Enviar mensaje",
+
+  "footer": "Todos los derechos reservados.",
+
+  "send-email-as-contact-form": "Envia un mensaje",
+
+  "send-whatsapp-as-contact-form": "Envia un mensaje"
+}

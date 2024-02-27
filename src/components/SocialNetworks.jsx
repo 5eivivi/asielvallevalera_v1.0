@@ -12,12 +12,12 @@ import { MdOutlineEmail as OutlineEmail } from 'react-icons/md'
 export const SocialNetworks = () => {
   return (
     <div className='social-networks'>
-      <a href='https://www.instagram.com/5eivivi' title='Instagram' className='icon' target='_blank' rel='noreferrer'><Instagram /></a>
-      <a href='https://www.linkedin.com/in/5eivivi' title='LinkedIn' className='icon' target='_blank' rel='noreferrer'><LinkedIn /></a>
-      <a href='https://www.github.com/5eivivi' title='GitHub' className='icon' target='_blank' rel='noreferrer'><GitHub /></a>
-      {/* <a href='https://www.facebook.com/5eivivi' title='Facebook' className='icon' target='_blank' rel='noreferrer'><Facebook /></a>
-      <a href='https://www.twitter.com/5eivivi' title='Twitter' className='icon' target='_blank' rel='noreferrer'><Twitter /></a> */}
-      {/* <a href='https://www.tiktok.com/@5eivivi' title='TikTok' className='icon' target='_blank' rel='noreferrer'><Tiktok /></a> */}
+      <a href='https://www.instagram.com/asielvalle96' title='Instagram' className='icon' target='_blank' rel='noreferrer'><Instagram /></a>
+      <a href='https://www.linkedin.com/in/asielvalle96' title='LinkedIn' className='icon' target='_blank' rel='noreferrer'><LinkedIn /></a>
+      <a href='https://www.github.com/asielvalle96' title='GitHub' className='icon' target='_blank' rel='noreferrer'><GitHub /></a>
+      {/* <a href='https://www.facebook.com/asielvalle96' title='Facebook' className='icon' target='_blank' rel='noreferrer'><Facebook /></a>
+      <a href='https://www.twitter.com/asielvalle96' title='Twitter' className='icon' target='_blank' rel='noreferrer'><Twitter /></a> */}
+      {/* <a href='https://www.tiktok.com/@asielvalle96' title='TikTok' className='icon' target='_blank' rel='noreferrer'><Tiktok /></a> */}
       <a href='https://api.whatsapp.com/send?phone=+1646687-5312&text=Hello' title='WhatsApp' className='icon' target='_blank' rel='noreferrer'><WhatsApp /></a>
       <a href='mailto:asielvallevalera@gmail.com' title='Email' className='icon' target='_blank' rel='noreferrer'><OutlineEmail /></a>
     </div>

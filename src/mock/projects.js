@@ -101,17 +101,19 @@ import pjt11Img6 from '../assets/projectsImages/react-prjt-shopping-cart/pjt11Im
 import pjt11Img7 from '../assets/projectsImages/react-prjt-shopping-cart/pjt11Img7.png'
 import pjt11Img8 from '../assets/projectsImages/react-prjt-shopping-cart/pjt11Img8.png'
 
-// 5eivivi-my-portfolio ➡️ id: 12, type: 'frontend', subType: 'react'
-import pjt12Img1 from '../assets/projectsImages/5eivivi-my-portfolio/pjt12Img1.png'
-import pjt12Img2 from '../assets/projectsImages/5eivivi-my-portfolio/pjt12Img2.png'
-import pjt12Img3 from '../assets/projectsImages/5eivivi-my-portfolio/pjt12Img3.png'
-import pjt12Img4 from '../assets/projectsImages/5eivivi-my-portfolio/pjt12Img4.png'
-import pjt12Img5 from '../assets/projectsImages/5eivivi-my-portfolio/pjt12Img5.png'
-import pjt12Img6 from '../assets/projectsImages/5eivivi-my-portfolio/pjt12Img6.png'
-import pjt12Img7 from '../assets/projectsImages/5eivivi-my-portfolio/pjt12Img7.png'
-import pjt12Img8 from '../assets/projectsImages/5eivivi-my-portfolio/pjt12Img8.png'
-import pjt12Img9 from '../assets/projectsImages/5eivivi-my-portfolio/pjt12Img9.png'
-import pjt12Img10 from '../assets/projectsImages/5eivivi-my-portfolio/pjt12Img10.png'
+// asielvalle96_v1.0 ➡️ id: 12, type: 'frontend', subType: 'react'
+import pjt12Img1 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img1.png'
+import pjt12Img2 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img2.png'
+import pjt12Img3 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img3.png'
+import pjt12Img4 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img4.png'
+import pjt12Img5 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img5.png'
+import pjt12Img6 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img6.png'
+import pjt12Img7 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img7.png'
+import pjt12Img8 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img8.png'
+import pjt12Img9 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img9.png'
+import pjt12Img10 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img10.png'
+
+const gitHubOverview = 'https://github.com/asielvalle96/'
 
 export const projects = [
   // mern-prjt-auth-task-crud ➡️ id: 1, type: 'fullstack', subType: 'mern'
@@ -124,7 +126,7 @@ export const projects = [
     description: 'card-description-1',
     type: 'fullstack',
     subType: 'mern',
-    link_GitHub: 'https://github.com/5eivivi/mern-prjt-auth-task-crud'
+    link_GitHub: `${gitHubOverview}mern-prjt-auth-task-crud`
   },
 
   // mern-pjt-blog ➡️ id: 2, type: 'fullstack', subType: 'mern'
@@ -137,7 +139,7 @@ export const projects = [
     description: 'card-description-2',
     type: 'fullstack',
     subType: 'mern',
-    link_GitHub: 'https://github.com/5eivivi/mern-pjt-blog'
+    link_GitHub: `${gitHubOverview}mern-pjt-blog`
   },
 
   // pern-prjt-tasks ➡️ id: 3, type: 'fullstack', subType: 'pern'
@@ -150,7 +152,7 @@ export const projects = [
     description: 'card-description-3',
     type: 'fullstack',
     subType: 'pern',
-    link_GitHub: 'https://github.com/5eivivi/pern-prjt-tasks'
+    link_GitHub: `${gitHubOverview}pern-prjt-tasks`
   },
 
   // mern-prjt-auth-task-crud ➡️ id: 4, type: 'backend', subType: 'mern'
@@ -163,7 +165,7 @@ export const projects = [
     description: 'card-description-4',
     type: 'backend',
     subType: 'mern',
-    link_GitHub: 'https://github.com/5eivivi/mern-prjt-auth-task-crud/tree/master/backend'
+    link_GitHub: `${gitHubOverview}mern-prjt-auth-task-crud/tree/master/backend`
   },
 
   // mern-pjt-blog ➡️ id: 5, type: 'backend', subType: 'mern'
@@ -176,7 +178,7 @@ export const projects = [
     description: 'card-description-5',
     type: 'backend',
     subType: 'mern',
-    link_GitHub: 'https://github.com/5eivivi/mern-pjt-blog/tree/master/backend'
+    link_GitHub: `${gitHubOverview}mern-pjt-blog/tree/master/backend`
   },
 
   // pern-prjt-tasks ➡️ id: 6, type: 'backend', subType: 'pern'
@@ -189,20 +191,20 @@ export const projects = [
     description: 'card-description-6',
     type: 'backend',
     subType: 'pern',
-    link_GitHub: 'https://github.com/5eivivi/pern-prjt-tasks/tree/master/backend'
+    link_GitHub: `${gitHubOverview}pern-prjt-tasks/tree/master/backend`
   },
 
-  // 5eivivi-my-portfolio ➡️ id: 12, type: 'frontend', subType: 'react'
+  // asielvalle96_v1.0 ➡️ id: 12, type: 'frontend', subType: 'react'
   {
     id: 12,
-    projectName: '5eivivi-my-portfolio',
+    projectName: 'asielvalle96_v1.0',
     imgCover: pjt12Img1,
     images: [pjt12Img1, pjt12Img2, pjt12Img3, pjt12Img4, pjt12Img5, pjt12Img6, pjt12Img7, pjt12Img8, pjt12Img9, pjt12Img10],
     title: 'card-title-12',
     description: 'card-description-12',
     type: 'frontend',
     subType: 'react',
-    link_GitHub: 'https://github.com/5eivivi/5eivivi'
+    link_GitHub: `${gitHubOverview}asielvalle96_v1.0`
   },
 
   // react-prjt-shopping-cart ➡️ id: 11, type: 'frontend', subType: 'react'
@@ -215,7 +217,7 @@ export const projects = [
     description: 'card-description-11',
     type: 'frontend',
     subType: 'react',
-    link_GitHub: 'https://github.com/5eivivi/react-prjt-shopping-cart'
+    link_GitHub: `${gitHubOverview}react-prjt-shopping-cart`
   },
 
   // react-prjt-movies-searcher ➡️ id: 10, type: 'frontend', subType: 'react'
@@ -228,7 +230,7 @@ export const projects = [
     description: 'card-description-10',
     type: 'frontend',
     subType: 'react',
-    link_GitHub: 'https://github.com/5eivivi/react-prjt-movies-searcher'
+    link_GitHub: `${gitHubOverview}react-prjt-movies-searcher`
   },
 
   // react-prjt-tic-tac-toe-game ➡️ id: 8, type: 'frontend', subType: 'react'
@@ -241,7 +243,7 @@ export const projects = [
     description: 'card-description-8',
     type: 'frontend',
     subType: 'react',
-    link_GitHub: 'https://github.com/5eivivi/react-prjt-tic-tac-toe-game'
+    link_GitHub: `${gitHubOverview}react-prjt-tic-tac-toe-game`
   },
 
   // react-prjt-twitter-follow-card ➡️ id: 7, type: 'frontend', subType: 'react'
@@ -254,7 +256,7 @@ export const projects = [
     description: 'card-description-7',
     type: 'frontend',
     subType: 'react',
-    link_GitHub: 'https://github.com/5eivivi/react-prjt-twitter-follow-card'
+    link_GitHub: `${gitHubOverview}react-prjt-twitter-follow-card`
   },
 
   // react-prjt-mouse-follower ➡️ id: 9, type: 'frontend', subType: 'react'
@@ -267,6 +269,6 @@ export const projects = [
     description: 'card-description-9',
     type: 'frontend',
     subType: 'react',
-    link_GitHub: 'https://github.com/5eivivi/react-prjt-mouse-follower'
+    link_GitHub: `${gitHubOverview}react-prjt-mouse-follower`
   }
 ]

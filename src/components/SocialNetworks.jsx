@@ -19,7 +19,7 @@ export const SocialNetworks = () => {
       <a href='https://www.twitter.com/asielvalle96' title='Twitter' className='icon' target='_blank' rel='noreferrer'><Twitter /></a> */}
       {/* <a href='https://www.tiktok.com/@asielvalle96' title='TikTok' className='icon' target='_blank' rel='noreferrer'><Tiktok /></a> */}
       <a href='https://api.whatsapp.com/send?phone=+1646687-5312&text=Hello' title='WhatsApp' className='icon' target='_blank' rel='noreferrer'><WhatsApp /></a>
-      <a href='mailto:asielvallevalera@gmail.com' title='Email' className='icon' target='_blank' rel='noreferrer'><OutlineEmail /></a>
+      <a href='mailto:avallevalera96@gmail.com' title='Email' className='icon' target='_blank' rel='noreferrer'><OutlineEmail /></a>
     </div>
   )
 }

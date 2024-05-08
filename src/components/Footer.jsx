@@ -22,7 +22,7 @@ export const Footer = () => {
         </article>
 
         <article className='my-right-on-footer'>
-          <span>&copy; Asiel Valle Valera. <FormattedMessage id='footer' defaultMessage='All right reserved.' /></span>
+          <span>&copy; Asiel Valle. <FormattedMessage id='footer' defaultMessage='All right reserved.' /></span>
         </article>
       </div>
     </footer>

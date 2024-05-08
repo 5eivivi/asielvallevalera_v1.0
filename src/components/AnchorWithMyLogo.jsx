@@ -14,7 +14,7 @@ export default function AnchorWithMyLogo () {
   return (
     <a
       href='https://asielvalle96.vercel.app/'
-      title='Asiel Valle Valera'
+      title='Asiel Valle'
       className={!isMobileDevice ? 'logo desktop-logo' : 'logo mobile-logo'} // To put a style on my logo on desktop devices and another style on mobile devices.
       rel='noreferrer'
     >

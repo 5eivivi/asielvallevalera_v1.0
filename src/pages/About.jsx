@@ -37,8 +37,8 @@ export const About = () => {
                 {
                   Projects: <a href='#projects' className='link-in-more-about-me'><FormattedMessage id='projects-in-more-about-me' defaultMessage='Projects' /></a>,
                   Skills: <a href='#skills' className='link-in-more-about-me'><FormattedMessage id='skills-in-more-about-me' defaultMessage='Skills' /></a>,
-                  LinkedIn: <a href='https://www.linkedin.com/' rel='noreferrer' target='_blank' className='link-in-more-about-me'>LinkedIn</a>,
-                  contactMe: <a href='mailto:asielvallevalera@gmail.com' className='link-in-more-about-me'><FormattedMessage id='contactme-in-more-about-me' defaultMessage='contact me' /></a>
+                  LinkedIn: <a href='https://www.linkedin.com/in/asielvalle96' rel='noreferrer' target='_blank' className='link-in-more-about-me'>LinkedIn</a>,
+                  contactMe: <a href='mailto:avallevalera96@gmail.com' className='link-in-more-about-me'><FormattedMessage id='contactme-in-more-about-me' defaultMessage='contact me' /></a>
                 }
               }
             />

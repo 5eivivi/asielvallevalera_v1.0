@@ -113,18 +113,6 @@ import pjt12Img8 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img8.png'
 import pjt12Img9 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img9.png'
 import pjt12Img10 from '../assets/projectsImages/asielvalle96_v1.0/pjt12Img10.png'
 
-
-
-
-
-
-
-
-
-
-
-
-
 // mern_prjt_booking ➡️ id: 13, type: 'backend', subType: 'mern'
 import pjt13Img1 from '../assets/projectsImages/mern_prjt_booking/backend/pjt13Img1.png'
 import pjt13Img2 from '../assets/projectsImages/mern_prjt_booking/backend/pjt13Img2.png'
@@ -307,28 +295,28 @@ export const projects = [
   },
 
   // mern_prjt_booking ➡️ id: 13, type: 'backend', subType: 'mern'
-  {
-    id: 13,
-    projectName: 'mern_prjt_booking',
-    imgCover: pjt13Img1,
-    images: [pjt13Img1, pjt13Img2, pjt13Img3, pjt13Img4, pjt13Img5, pjt13Img6, pjt13Img7, pjt13Img8, pjt13Img9],
-    title: 'card-title-13',
-    description: 'card-description-13',
-    type: 'backend',
-    subType: 'mern',
-    link_GitHub: `${gitHubOverview}mern_prjt_booking/tree/master/backend`
-  },
+  // {
+  //   id: 13,
+  //   projectName: 'mern_prjt_booking',
+  //   imgCover: pjt13Img1,
+  //   images: [pjt13Img1, pjt13Img2, pjt13Img3, pjt13Img4, pjt13Img5, pjt13Img6, pjt13Img7, pjt13Img8, pjt13Img9],
+  //   title: 'card-title-13',
+  //   description: 'card-description-13',
+  //   type: 'backend',
+  //   subType: 'mern',
+  //   link_GitHub: `${gitHubOverview}mern_prjt_booking/tree/master/backend`
+  // },
 
   // mern_prjt_booking ➡️ id: 14, type: 'fullstack', subType: 'mern'
-  {
-    id: 14,
-    projectName: 'mern_prjt_booking',
-    imgCover: pjt14Img1,
-    images: [pjt14Img1, pjt14Img2, pjt14Img3, pjt14Img4, pjt14Img5, pjt14Img6, pjt14Img7, pjt14Img8, pjt14Img9],
-    title: 'card-title-14',
-    description: 'card-description-14',
-    type: 'fullstack',
-    subType: 'mern',
-    link_GitHub: `${gitHubOverview}mern_prjt_booking`
-  }
+  // {
+  //   id: 14,
+  //   projectName: 'mern_prjt_booking',
+  //   imgCover: pjt14Img1,
+  //   images: [pjt14Img1, pjt14Img2, pjt14Img3, pjt14Img4, pjt14Img5, pjt14Img6, pjt14Img7, pjt14Img8, pjt14Img9],
+  //   title: 'card-title-14',
+  //   description: 'card-description-14',
+  //   type: 'fullstack',
+  //   subType: 'mern',
+  //   link_GitHub: `${gitHubOverview}mern_prjt_booking`
+  // }
 ]

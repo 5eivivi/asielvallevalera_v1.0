@@ -9,7 +9,7 @@ import { FormattedMessage } from 'react-intl'
 export default function WhatsAppAsContactForm () {
   return (
     <article>
-      <a className='whatsapp-contact-form' href='https://api.whatsapp.com/send?phone=+1646687-5312&text=Hello' target='_blank' rel='noreferrer'>
+      <a className='whatsapp-contact-form' href='https://api.whatsapp.com/send?phone=+17132130648&text=Hello' target='_blank' rel='noreferrer'>
         <BsWhatsapp className='whatsapp-icon' />
         <h4>WhatsApp</h4>
         <FormattedMessage id='send-whatsapp-as-contact-form' defaultMessage='Send a message' />

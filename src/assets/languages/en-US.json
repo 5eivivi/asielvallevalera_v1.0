@@ -1,4 +1,4 @@
-{
+  {
   "home": "Home",
   "skills": "Skills",
   "about": "About",
@@ -7,7 +7,7 @@
   
   "my-name-is": "My name is ",
   "occupation": "I am a Web Developer.",
-  "explain-occupation": "I am knowledgeable about a wide range of web and internet technologies. I have a passion for creating resilient, scalable, and maintainable software. I am excited to improve the experiences of the users, both internal and external. I am meticulous, have a lot of attention to detail, especially when working with design specifications.",
+  "explain-occupation": "I am knowledgeable about a wide range of webs and internet technologies. I have a passion for creating resilient, scalable, and maintainable software. I am excited to improve the experiences of the users, both internal and external. I am meticulous, have a lot of attention to detail, especially when working with design specifications.",
   "download-cv-button": "Download CV",
   "about-me-button": "More about me", 
   
@@ -73,7 +73,7 @@
   "card-description-14": "",
   
   "contact-title": "Contact me",
-  "text-contact": "Contact me by submitting the form below and I will get back to you as soon as possible.",
+  "text-contact": "Contact me by submitting the form below, and I will get back to you as soon as possible.",
   "form-label-name": "Please, type your full name",
   "form-label-email": "Please, type your email",
   "form-label-message": "Please, type your message",

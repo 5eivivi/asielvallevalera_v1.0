@@ -1,12 +1,12 @@
 import './DownloadCV.css'
 
-import CV from "../assets/Asiel Valle's CV.pdf"
+import CV from "../assets/Asiel Valle's resume.pdf"
 
 // Multi language (Format.JS library).
 import { FormattedMessage } from 'react-intl'
 
 export default function DownloadCV () {
-  // This function is because, when I download my CV, its name change to "Asiel Valle's CV" <whatever>.pdf" on Production Mode.
+  // This function is because, when I download my CV, its name change to "Asiel Valle's resume" <whatever>.pdf" on Production Mode.
   const handleClickDownloadCV = () => {
     fetch(CV).then((response) => {
       response.blob().then((blod) => {

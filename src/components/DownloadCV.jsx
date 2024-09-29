@@ -13,7 +13,7 @@ export default function DownloadCV () {
         const fileURL = window.URL.createObjectURL(blod)
         const alink = document.createElement('a')
         alink.href = fileURL
-        alink.download = "Asiel Valle's CV.pdf"
+        alink.download = "Asiel Valle's resume.pdf"
         alink.click()
       })
     })
